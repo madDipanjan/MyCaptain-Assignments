@@ -2,10 +2,11 @@
 
 int main()
 {
-    std :: cout << "Size of char: " << sizeof(char) << " byte" << std :: endl;
-    std :: cout << "Size of int: " << sizeof(int) << " bytes" << std :: endl;
-    std :: cout << "Size of float: " << sizeof(float) << " bytes" << std :: endl;
-    std :: cout << "Size of double: " << sizeof(double) << " bytes" << std :: endl;
+    double var1, var2;
+    std :: cout << "Hello !! Let's find the product of two numbers." << std :: endl;
+    std :: cout << "Enter two numbers (please hit the enter button after entering each number): " << std :: endl;
+    std :: cin >> var1 >> var2;
+    std :: cout << "Product = " << var1*var2 << std :: endl;
 
     return 0;
 }
